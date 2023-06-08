@@ -1,0 +1,61 @@
+2023/06/08 08:48:29 [error] 69095#9875530: *17 [lua] req.lua:12: client req:{"appid":"333","appsecret":"333"}, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 08:49:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 08:49:57 [error] 69095#9875530: *9 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 08:52:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 08:53:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 08:56:36 [error] 69095#9875530: *18 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'set_header' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 08:56:51 [error] 69095#9875530: *19 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:26: attempt to call field 'set_header' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 08:57:57 [error] 69095#9875530: *9 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 08:58:31 [error] 69095#9875530: *20 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'set_header' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 08:59:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 08:59:41 [error] 69095#9875530: *21 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'add_header' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 08:59:45 [error] 69095#9875530: *22 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'add_header' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 08:59:46 [error] 69095#9875530: *23 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'add_header' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:02:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 09:02:57 [error] 69095#9875530: *9 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 09:03:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 09:04:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 09:05:12 [error] 69095#9875530: *26 [lua] req.lua:27: resp:table, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:05:54 [error] 69095#9875530: *26 [lua] req.lua:28: key:Date value:Thu, 08 Jun 2023 01:05:55 GMT, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:05:54 [error] 69095#9875530: *26 [lua] req.lua:28: key:Content-Type value:application/json, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:05:54 [error] 69095#9875530: *26 [lua] req.lua:28: key:Keep-Alive value:timeout=60, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:05:54 [error] 69095#9875530: *26 [lua] req.lua:28: key:Content-Length value:112, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:05:54 [error] 69095#9875530: *26 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to concatenate local 'value' (a table value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:06:32 [error] 69095#9875530: *11 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 09:07:04 [error] 69095#9875530: *27 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'set_headers' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:07:19 [error] 69095#9875530: *28 lua entry thread aborted: runtime error: ..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua:28: attempt to call field 'add_headers' (a nil value)
+stack traceback:
+coroutine 0:
+	..._lock/Workspaces/vscode/openresty/frp/lua/server/req.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /111/aaaa HTTP/1.1", host: "localhost:8320"
+2023/06/08 09:08:57 [error] 69095#9875530: *9 lua tcp socket read timed out, client: 127.0.0.1, server: fp_server, request: "GET /ws HTTP/1.1", host: "127.0.0.1:8200"
+2023/06/08 09:12:22 [notice] 69093#9875526: signal 15 (SIGTERM) received from 9559, exiting
+2023/06/08 09:12:22 [notice] 69095#9875530: exiting
+2023/06/08 09:12:22 [notice] 69093#9875526: signal 23 (SIGIO) received
+2023/06/08 09:12:22 [notice] 69095#9875530: exit
+2023/06/08 09:12:22 [notice] 69093#9875526: signal 20 (SIGCHLD) received from 69095
+2023/06/08 09:12:22 [notice] 69093#9875526: worker process 69095 exited with code 0
+2023/06/08 09:12:22 [notice] 69093#9875526: exit
